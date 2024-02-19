@@ -1,0 +1,25 @@
+{
+  "name": "bun-elysia-drizzle",
+  "version": "1.0.50",
+  "scripts": {
+    "dev": "bun run --watch src/index.ts",
+    "start": "bun run src/index.ts",
+    "introspect": "drizzle-kit introspect:pg --config=drizzle.config.ts",
+    "generate": "drizzle-kit generate:pg --config=drizzle.config.ts",
+    "migrate": "bun run src/db/migrate.ts",
+    "studio": "drizzle-kit studio"
+  },
+  "dependencies": {
+    "@elysiajs/swagger": "^0.8.5",
+    "drizzle-orm": "^0.29.3",
+    "drizzle-zod": "^0.5.1",
+    "elysia": "latest",
+    "pg": "^8.11.3"
+  },
+  "devDependencies": {
+    "@types/pg": "^8.11.0",
+    "bun-types": "latest",
+    "drizzle-kit": "^0.20.14"
+  },
+  "module": "src/index.js"
+}
