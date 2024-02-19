@@ -1,9 +1,9 @@
-[![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/template/ospb5B?referralCode=codebrew)
+[![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/template/xuXPu7?referralCode=codebrew)
 
 # Bun with Elysia & Drizzle
 This is a template repo for the base of a Bun server using Elysia for the API and Drizzle ORM for a Postgres DB.
 
-You can [deploy on Railway](https://railway.app/template/ospb5B?referralCode=codebrew) or simply [create a new repo](https://github.com/thecodebrew/bun-elysia-prisma-base/generate) using this template.
+You can [deploy on Railway](https://railway.app/template/xuXPu7?referralCode=codebrew) or simply [create a new repo](https://github.com/thecodebrew/bun-elysia-drizzle-base/generate) using this template.
 
 ## Development
 1. Install dependencies
